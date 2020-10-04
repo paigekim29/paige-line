@@ -1,0 +1,28 @@
+.friends-screen__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.user-component__title-xs {
+  font-size: 14px;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.user-component__subtitle-xs {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.friends-screen__group {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.friends-screen__column--notblack {
+  opacity: 0.3;
+}
+
+.main-screen__friends {
+  margin-top: 120px;
+}

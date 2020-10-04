@@ -1,0 +1,30 @@
+.login__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.login__info--country {
+  border: none;
+  font-size: 20px;
+}
+.login__info--number {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.phone__submit {
+  margin-top: 300px;
+  opacity: 0.1;
+  position: fixed;
+  bottom: 70px;
+  right: 100px;
+}

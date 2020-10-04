@@ -1,0 +1,62 @@
+body {
+  position: relative;
+}
+.login__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 25px;
+  font-weight: 100;
+  padding: 0px;
+}
+
+.login__header--second {
+  opacity: 0.1;
+}
+
+.login__main {
+  margin: 0px 50px;
+  position: relative;
+}
+.login__main--title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.login__main--text {
+  margin-top: 20px;
+  opacity: 0.6;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+
+.login__input input {
+  padding: 20px 0px;
+  border: none;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login__input--phone {
+  margin-top: 200px;
+  background-color: var(--pink);
+}
+
+.login__input--apple {
+  background-color: black;
+}
+
+.login__input--facebook {
+  background-color: #0c86ef;
+}
+
+.login__button {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}

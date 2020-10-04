@@ -1,0 +1,42 @@
+.main-screen__call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-screen__call h5 {
+  font-weight: 600;
+  margin-top: 300px;
+}
+
+.main-screen__call p {
+  opacity: 0.6;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.main-screen__call a {
+  text-decoration: underline;
+  color: blue;
+  margin-bottom: 100px;
+}
+
+.call__profile {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.call__profile__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call__profile__pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

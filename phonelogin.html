@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paige Line-Log In by Phone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-column">
+        <span>14:51</span>
+        <i class="fas fa-location-arrow"></i>
+      </div>
+      <div class="status-column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-quarter"></i>
+      </div>
+    </div>
+
+    <header class="login__header">
+      <a href="index.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      <span class="login__header--second">
+        <i class="far fa-question-circle fa-2x"></i>
+      </span>
+    </header>
+
+    <main class="login__main">
+      <h1 class="login__main--title">이 기기 전화번호 입력</h1>
+      <p class="login__main--text">
+        전화번호를 입력하고 화살표를 누르기 전에 PAIGE LINE
+        <a href="#">이용약관</a>과 <a href="#">개인정보처리방침</a>에 동의해
+        주세요.
+      </p>
+      <div class="login__info">
+        <input required
+          name="country"
+          list="country"
+          class="login__info--country"
+          placeholder="국가 선택"
+        />
+        <datalist id="country">
+          <option value="대한민국 (Republic of Korea)"></option>
+          <option value="중국 (China)"></option>
+          <option value="일본 (Japan)"></option>
+          <option value="필리핀 (Philippines)"></option>
+          <option value="캐나다 (Canada)"></option>
+        </datalist>
+        <input
+          class="login__info--number"
+          required
+          type="tel"
+          placeholder="전화번호 입력"
+          name="phone"
+        />
+      </div>
+      
+      <span class="phone__submit">
+        <a href="friends.html"><i class="fas fa-arrow-circle-right fa-3x"></i
+      ></span></a>
+
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/7f904311ad.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

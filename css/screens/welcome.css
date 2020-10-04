@@ -1,0 +1,56 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.welcome-header__img {
+  width: 90px;
+  height: 90px;
+  background-color: var(--pink);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-header__img i {
+  color: white;
+}
+
+.welcome-header__title {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.welcome-header__text {
+  margin-top: 15px;
+  opacity: 0.6;
+}
+
+.welcome__input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+
+.welcome__input input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+.welcome__input--login {
+  margin-top: 200px;
+  background-color: var(--pink);
+  color: white;
+}
+
+.welcome__input--signup {
+  background-color: white;
+}
